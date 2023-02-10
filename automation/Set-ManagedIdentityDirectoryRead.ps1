@@ -16,3 +16,10 @@ $managedIdentity = (Get-AzADServicePrincipal -Filter "displayName eq '$displayNa
 $graphServicePrincipal = Get-AzADServicePrincipal -Filter "appId eq '$graphAppId'"
 $appRole = $graphServicePrincipal.AppRole | Where-Object {$_.Value -eq $permissionName -and $_.AllowedMemberType -contains "Application"}
 New-AzureAdServiceAppRoleAssignment -ObjectId $managedIdentity.Id -PrincipalId $managedIdentity.Id -ResourceId $graphServicePrincipal.Id -Id $appRole.Id
+
+try {
+    
+}
+catch {
+    Write-Error -Message ''
+}

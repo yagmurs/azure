@@ -592,16 +592,5 @@
           }
         }
       }
-    },
-    "id": "/subscriptions/3222bb7d-64b9-4e67-8d8d-848ffcc686ac/providers/Microsoft.Authorization/policyDefinitions/075feb04-f63b-43e8-bd69-a57d3b264432",
-    "type": "Microsoft.Authorization/policyDefinitions",
-    "name": "075feb04-f63b-43e8-bd69-a57d3b264432",
-    "systemData": {
-      "createdBy": "3y1u1Bur4K@socar.com.tr",
-      "createdByType": "User",
-      "createdAt": "2023-02-08T07:32:21.3035935Z",
-      "lastModifiedBy": "F3bRu4ryF@socar.com.tr",
-      "lastModifiedByType": "User",
-      "lastModifiedAt": "2023-02-08T13:23:01.6200362Z"
     }
   }
